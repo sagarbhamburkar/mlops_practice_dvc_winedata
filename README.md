@@ -19,3 +19,23 @@ dvc add data_given/winequality.csv
 git add .
 git commit -m "first commit"
 git add . && git commit -m "update readme.md"
+
+tox command -
+
+tox
+
+for rebuilding -
+
+tox -r 
+
+pytest command
+
+pytest -v
+
+setup commands -
+
+pip install -e . 
+
+build your own package commands-
+
+python setup.py sdist bdist_wheel
